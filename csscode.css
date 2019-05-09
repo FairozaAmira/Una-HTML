@@ -1,7 +1,7 @@
 body {
  background-color: white;
  background-repeat: repeat;
- font-family: Verdana, Arial, Times New Roman;
+ font-family: Georgia, Arial, Times New Roman;
 }
 .sidenav {
   height: 100%;
@@ -28,10 +28,34 @@ body {
   color: #f1f1f1;
 }
 
+.about_me {margin:
+  200px;
+margin-top: 0px;}
 p {margin-left: 200px;
-margin-bottom: -40px;}
+margin-bottom: -60px;}
 
-h1 {margin-left: 200px;}
+.atas {margin-bottom:-500px}
+
+h1 {
+  margin-left: 190px;
+  margin-top: -20px;
+  background: black;
+  font-size: 60px;
+  color: white;
+  text-align: justify;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+th {text-align: left;
+}
+.main {
+  margin: 200px;
+}
+.main_2 {
+    margin-left: 200px;
+    margin-top: -140px;
+}
 
 .slider{
   margin: 200px;
@@ -91,4 +115,4 @@ On click the images will be displayed at normal size to complete the effect
 	opacity: 1;
 	transform: scale(1);
 }
-
+.map{margin: 200px}
